@@ -1,0 +1,40 @@
+*{
+    margin: none;
+    padding: none;
+}
+
+.NavContainer{
+    width:100%;
+    background-color: rgb(28, 28, 28);
+    border-bottom:0.2px solid rgba(245, 245, 245, 0.149);
+}
+
+.NavFlex{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items:center;
+    padding: 0.3cm 1.5cm;
+}
+
+.NavLogoImg{
+    width:2cm;
+}
+
+.NavMenu{
+    display: flex;
+    flex-direction: row;
+    column-gap: 0.4cm;
+    justify-content: center;
+    align-items: center;
+}
+
+.menuItem{
+    color: rgba(204, 204, 204, 0.886);
+    font-size: 16px;
+    text-decoration: none;
+}
+
+.menuItem:hover{
+    color: rgb(255, 255, 255);
+}

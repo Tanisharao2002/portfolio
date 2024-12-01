@@ -1,0 +1,113 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+.ProjectContainer{
+    width:100%;
+    background-color: rgb(28, 28, 28);
+    color:rgb(236, 236, 236);
+}
+
+.ProjectFlex{
+    padding: 1cm;
+    display: flex;
+    flex-direction: column;
+    row-gap: 0.5cm;
+    /* align-items: flex-start; */
+    justify-content: center;
+}
+
+.ProjectHeading{
+    font-size: 30px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bolder;
+    text-align: left;
+}
+
+.ProjectCards{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap:0.8cm;
+}
+
+.ProjectCard{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 0.2cm;
+    /* border: thin solid rgba(131, 131, 131, 0.641); */
+    border-radius: 5px;
+    width: 8cm;
+    min-width: 5cm;
+    box-shadow: rgba(83, 83, 83, 0.455) 0px 2px 4px 0px, rgba(83, 83, 83, 0.536) 0px 2px 16px 0px;
+}
+
+.CardRow1{
+    font-size: 14px;
+    color: rgba(255, 0, 195, 0.889);
+    padding:0.2cm;
+    border-bottom: thin solid rgba(128, 128, 128, 0.653);
+    width:calc(100% - 0.4cm);
+    text-align: left;
+}
+
+.CardRow2{
+    font-size: 20px;
+    font-weight: 500;
+    padding:0.2cm;
+    color: rgb(255, 255, 255);
+}
+
+.CardRow2-1{
+    /* word-break: break-all; */
+    text-align:left;
+    padding:0.2cm;
+    color:rgba(224, 224, 224, 0.886)
+}
+.CardRow3{
+    font-size: 16px;
+    font-weight: 500;
+    padding:0.2cm;
+    color: rgba(164, 72, 255, 0.927);
+}
+
+.CardRow4{
+    display: flex;
+    column-gap: 0.5cm;
+    padding:0.2cm;
+    border-top: thin solid rgba(128, 128, 128, 0.771);
+    width:calc(100% - 0.4cm);
+}
+
+.LiveBtn{
+    padding:0.3cm;
+    color:rgba(226, 226, 226, 0.94);
+    background-color: rgb(5, 109, 0);
+    border: none;
+    font-weight: bolder;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.LiveBtn:hover{
+    background-color: rgb(4, 71, 0)
+}
+
+.SrcBtn{
+    padding:0.3cm;
+    color:rgba(225, 225, 225, 0.925);
+    font-weight: bolder;
+    background-color: rgb(0, 104, 136);
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.SrcBtn:hover{
+    background-color: rgb(1, 89, 116);
+}
